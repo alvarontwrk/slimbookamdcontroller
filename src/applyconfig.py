@@ -49,7 +49,7 @@ try:
     set_parameters = parameters[mode].split('-')
     sleep(3)
     print('Setting '+modo_actual+' to : '+set_parameters[0]+' '+set_parameters[1]+' '+set_parameters[2]+'.\n')
-    call = os.system('sudo /usr/share/slimbookamdcontroller/ryzenadj --tctl-temp=95'+' --slow-limit='+set_parameters[0]+' --stapm-limit='+set_parameters[1]+' --fast-limit='+set_parameters[2]+'')
+    call = os.system('sudo ryzenadj --tctl-temp=95'+' --slow-limit='+set_parameters[0]+' --stapm-limit='+set_parameters[1]+' --fast-limit='+set_parameters[2]+'')
 
     print('--------------------------------------------')
     print('Exit: '+str(call))

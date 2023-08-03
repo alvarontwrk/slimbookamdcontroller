@@ -557,7 +557,7 @@ class SlimbookAMD(Gtk.ApplicationWindow):
 
 
         call = subprocess.getoutput(
-            '/usr/share/slimbookamdcontroller/ryzenadj --info')
+            'ryzenadj --info')
         salida = str(call)
 
         index = str(salida.find(parameter))
@@ -644,7 +644,7 @@ class SlimbookAMD(Gtk.ApplicationWindow):
     def about_us(self, widget, x):
         self.active = False
         print('\nINFO:')
-        #os.system('sudo /usr/share/slimbookamdcontroller/ryzenadj --info')
+        #os.system('sudo ryzenadj --info')
         print('\n')
         # Abre la ventana de info
 

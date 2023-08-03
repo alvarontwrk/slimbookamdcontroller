@@ -12,7 +12,7 @@ cd build
 cmake ..
 make
 cp ryzenadj ../../
-chmod +x /usr/share/slimbookamdcontroller/ryzenadj
+chmod +x ryzenadj
 
 # Python dependencies
 which pip
