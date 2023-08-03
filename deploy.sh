@@ -10,8 +10,10 @@ fi
 
 xbps-install -y RyzenAdj
 
-print_info "Copying contents..."
+mkdir -p /usr/share/slimbookamdcontroller
+
+echo "Copying contents..."
 while read line; do
 	cp -vrf $line
 done < debian/install
-print_info "...Done copying contents!\n"
+echo "...Done copying contents!\n"
