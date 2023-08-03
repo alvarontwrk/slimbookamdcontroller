@@ -8,5 +8,5 @@ if [ "$USER" != "root" ]; then
     exit
 fi
 
-xbps-install RyzenAdj
+xbps-install -y RyzenAdj
 
