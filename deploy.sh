@@ -10,7 +10,7 @@ fi
 
 xbps-install -y RyzenAdj
 
-mkdir -p /usr/share/slimbookamdcontroller
+mkdir -p /usr/share/slimbookamdcontroller/src
 
 echo "Copying contents..."
 while read line; do
