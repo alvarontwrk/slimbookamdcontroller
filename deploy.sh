@@ -2,7 +2,7 @@
 
 # Void deploy script
 
-if [ "$EUID" -ne 0 ]; then
+if [ "$EUID" != 0 ]; then
     echo "Script must be run as root"
     exit
 fi
