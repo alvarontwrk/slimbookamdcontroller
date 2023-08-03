@@ -45,3 +45,6 @@ while read line; do
 	cp -vrf $line
 done < debian/install
 echo "...Done copying contents!\n"
+
+chmod +x /usr/bin/slimbookamdcontroller
+chmod +x /usr/bin/slimbookamdcontroller-pkexec
