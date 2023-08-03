@@ -48,4 +48,3 @@ echo "...Done copying contents!\n"
 
 chmod +x /usr/bin/slimbookamdcontroller
 chmod +x /usr/bin/slimbookamdcontroller-pkexec
-chmod +x /usr/share/applications/slimbookamdcontroller.desktop
