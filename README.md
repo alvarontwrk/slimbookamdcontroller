@@ -27,7 +27,7 @@ This window allows you to set different TDP values for every mode. Default value
 
 To check this out use:   
       
-      sudo /usr/share/slimbookamdcontroller/ryzenadj --info
+      sudo ryzenadj --info
 
 ![Captura de pantalla de 2021-11-16 15-24-22](https://user-images.githubusercontent.com/18195266/142014508-0921d507-8fcb-4d3e-a438-df87daa7c854.png)
 
