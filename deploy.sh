@@ -12,7 +12,7 @@ xbps-install -y RyzenAdj
 
 echo "Deleting previous installation"
 rm -rf /usr/share/slimbookamdcontroller
-rm /usr/share/applications/slimbookamdcontroller.desktop
+rm -rf /usr/share/applications/slimbookamdcontroller.desktop
 rm -rf /usr/share/icons/hicolor/1024x1024/apps/slimbookamdcontroller.png
 rm -rf /usr/share/icons/hicolor/128x128/apps/slimbookamdcontroller.png
 rm -rf /usr/share/icons/hicolor/16x16/apps/slimbookamdcontroller.png
@@ -48,3 +48,4 @@ echo "...Done copying contents!\n"
 
 chmod +x /usr/bin/slimbookamdcontroller
 chmod +x /usr/bin/slimbookamdcontroller-pkexec
+chmod +x /usr/share/applications/slimbookamdcontroller.desktop
